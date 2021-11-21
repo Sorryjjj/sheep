@@ -7,6 +7,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 import api from './api/index'
 import ApolloClient from 'apollo-boost'
 import VueApollo from 'vue-apollo'
+import './styles/index.less'
 Vue.use(VueApollo);
 
 const apolloClient = new ApolloClient({

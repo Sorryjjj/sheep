@@ -1,0 +1,50 @@
+@font-face {
+  font-family: PIXELCRAFT;
+  src: url('../assets/PIXELCRAFT.otf');
+}
+// BrokenConsoleBold
+@font-face {
+  font-family: BrokenConsoleBold;
+  src: url('../assets/BrokenConsoleBold.otf');
+}
+
+.box {
+  padding: 20px 20px 0 20px;
+  font-family: BrokenConsoleBold, Helvetica, sans-serif;
+  border-width: 30px;
+  border-style: solid;
+  border-color: transparent;
+  background: rgb(237, 227, 209);
+  border-image: url('../assets/wood-frame.svg') 15 15 15 stretch;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+.wrapper {
+  background-image: url(../assets/wood-mask.svg);
+  background-repeat: repeat;
+  background-size: 100%;
+  opacity: 0.04;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.BrokenConsoleBold {
+  font-family: BrokenConsoleBold;
+}
+
+.black {
+  color: black;
+}
+.text-left {
+  text-align: left;
+}
+.font-40 {
+  font-size: 40px;
+}
